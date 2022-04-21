@@ -5,6 +5,8 @@
 * Realice una gestion eficiente de la memoria.
 * Distribuye la memoria en dos zonas: stack(pila) y heap(montón)
 
+![RAM](/modelo/ram.jpeg "RAM") 
+
 ### Stack
 * Se almacenan variables locales, llamadas a metodos(parametros y resultados), variables primitivas, referencias a objetos del heap.
 * Memoria estática.
@@ -23,5 +25,9 @@
 
 
 ## PRIMITIVOS
+* Contenedores de tamaño especifico que almacenan valores y no tienen metodos.
+* Ejemplos: bolean, char, byte, short, long, float, double.
 
 ### REFERENCIADOS
+* Almacenan las referencias a los datos.
+* Estos datos se escriben en una zona de memoria llamada heap.
